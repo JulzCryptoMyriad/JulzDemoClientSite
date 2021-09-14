@@ -4,7 +4,14 @@
 
     </head>
     <body>
-         <iframe src="http://localhost:3000/1/12.43" ></iframe> 
+		<script type="text/javascript">
+			 function setValue(val){
+			   var value = val;
+			   document.getElementById('Target').value = value;
+			}
+		</script>
+		 <div>Response: <input type="text" id="Target" ></div>
+         <iframe id="myframe" src="http://localhost:3000/91/200" ></iframe> 
     </body>
 
 </html>
